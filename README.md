@@ -1,7 +1,7 @@
 # Learn2Mix
 
 ## Overview
-This repository contains the implementation of the **Learn2Mix** training mechanism, which accelerates model convergence by adaptively mixing data from different classes (or tasks) at each training step. We provide empirical results on various benchmark datasets, covering classification, regression, and reconstruction tasks. The code in this repository (as shown in the [example CIFAR-100 script](./path/to/your_script.py)) demonstrates how **Learn2Mix** can be integrated into common training workflows.
+This repository contains the implementation of the **Learn2Mix** training mechanism, which accelerates model convergence by adaptively mixing data from different classes (or tasks) at each training step. We provide empirical results on various benchmark datasets, covering classification, regression, and reconstruction tasks. The code in this repository demonstrates how **Learn2Mix** can be integrated into common training workflows.
 
 ## Requirements
 - Python >= 3.7  
