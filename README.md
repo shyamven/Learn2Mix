@@ -14,7 +14,7 @@ This repository contains the implementation of the **Learn2Mix** training mechan
 - scipy >= 1.5  
 
 ## Note
-For the **IMDB dataset**, please download the CSV from [this Kaggle link](https://www.kaggle.com/datasets/lakshmi25npathi/imdb-dataset-of-50k-movie-reviews). Once downloaded, place it in the `./data` directory (or the directory you specify in your code) so it can be accessed by the dataset-loading utilities provided in this repository.
+For the **IMDB dataset**, please download the CSV from [this Kaggle link](https://www.kaggle.com/datasets/lakshmi25npathi/imdb-dataset-of-50k-movie-reviews). Once downloaded, place it in the `./data` directory  so it can be accessed by the dataset-loading utilities provided in this repository.
 
 ## Citation: 
 
