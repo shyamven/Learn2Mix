@@ -20,16 +20,14 @@ For the **IMDB dataset**, please download the CSV from [this Kaggle link](https:
 
 Plain Text:
 ```
-Shyam Venkatasubramanian, Vahid Tarokh. Learn2Mix: Training Neural Networks Using Adaptive Data Integration. arXiv preprint arXiv:2412.16482
+Shyam Venkatasubramanian, Vahid Tarokh. Learn2Mix: Training Neural Networks Using Adaptive Data Integration. The 39th Conference on Neural Information Processing Systems.
 ```
 BibTeX:
 ```
-@misc{shyam2024learn2mix,
+@misc{shyam2025learn2mix,
       title={Learn2Mix: Training Neural Networks Using Adaptive Data Integration}, 
       author={Shyam Venkatasubramanian and Vahid Tarokh},
-      year={2024},
-      eprint={2412.16482},
-      archivePrefix={arXiv},
-      primaryClass={cs.LG}
+      year={2025},
+      booktitle={The 39th Conference on Neural Information Processing Systems}
 }
 ```
