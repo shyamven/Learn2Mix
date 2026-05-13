@@ -2,7 +2,7 @@ from typing import Optional
 
 from .registry import EXPERIMENTS, SUPPORTED_METHODS
 from .classification_engine import run_classification_experiment
-from .notebook_engine import run_remote_notebook
+from .l2m_regression_engine import run_l2m_regression_experiment
 
 
 def run_experiment(experiment: str, method: Optional[str] = None) -> int:
@@ -25,10 +25,10 @@ def run_experiment(experiment: str, method: Optional[str] = None) -> int:
                 f"Experiment '{experiment}' requires --method. Supported: {', '.join(SUPPORTED_METHODS)}"
             )
         return run_classification_experiment(experiment, method)
-    if kind == "notebook":
+    if kind == "l2m_regression":
         if method is not None:
             raise ValueError(f"Experiment '{experiment}' does not support --method.")
-        return run_remote_notebook(exp_cfg["url"])
+        return run_l2m_regression_experiment(experiment)
 
     raise ValueError(f"Unsupported experiment kind '{kind}' for '{experiment}'")
 

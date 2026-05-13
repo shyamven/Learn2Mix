@@ -15,7 +15,7 @@ This repository contains the implementation of the **Learn2Mix** training mechan
 
 ## Repository Structure
 - `main.py`: unified entrypoint to run any experiment from one CLI.
-- `learn2mix/experiments/`: unified experiment engines (`classification_engine.py`, `notebook_engine.py`), registry, and runner.
+- `learn2mix/experiments/`: unified experiment engines (`classification_engine.py`, `l2m_regression_engine.py`), registry, and runner.
 - `learn2mix/models/`: reusable model definitions (CNN, MobileNet/ResNet, Transformer).
 - `learn2mix/utils/`: shared utility components (sampling helpers, losses).
 
@@ -26,7 +26,7 @@ Run any experiment through the new `main.py`:
 python main.py --experiment mnist --method L2M
 ```
 
-Notebook-backed experiments do not use `--method`:
+Regression/reconstruction Learn2Mix-vs-classical experiments do not use `--method`:
 
 ```bash
 python main.py --experiment mean-estimation
